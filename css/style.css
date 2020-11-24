@@ -9,6 +9,9 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
 }
+button {
+    cursor: pointer;
+}
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -51,4 +54,22 @@ section .content form button {
     font-size: 30px;
     text-align: center;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        padding: 0 10px;
+    }
+    main {
+        align-items: initial;
+        padding: 0;
+    }
+    section .content {
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+    }
+    section .content .name img {
+        width: 100%;
+    }
 }
